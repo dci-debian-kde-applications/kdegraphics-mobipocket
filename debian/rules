@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+# set the correct gettext domain as source package name != upstream tarball name
+export KUBUNTU_DESKTOP_POT=mobipocket
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk

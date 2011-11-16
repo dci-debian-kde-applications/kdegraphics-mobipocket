@@ -1,0 +1,40 @@
+kdegraphics-mobipocket (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 23:31:23 +0200
+
+kdegraphics-mobipocket (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 09 Sep 2011 10:21:24 -0400
+
+kdegraphics-mobipocket (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  [ Philip Muškovac ]
+  * New upstream release 
+
+  [ Felix Geyer ]
+  * Set KUBUNTU_DESKTOP_POT because package name != tarball name.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 28 Jul 2011 19:16:59 +0200
+
+kdegraphics-mobipocket (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  [ Harald Sitter ]
+  * Initial release (moved out of kdegraphics)
+  * Repack upstream source to include a copy of GPL
+  * Replace and break old packages (kdegraphics-strigi-plugins and okular)
+
+  [ Philip Muškovac ]
+  * Add kubuntu_mobi_desktop_use_tryexec.diff so TryExec is used to check
+    if okular is actually installed.
+  * kdegraphics-mobipocket Recommends/Enhances okular
+
+  [ Felix Geyer ]
+  * Rename package to kdegraphics-mobipocket.
+  * Add lintian override for desktop-command-not-in-package.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 16 Jul 2011 13:25:25 +0200
