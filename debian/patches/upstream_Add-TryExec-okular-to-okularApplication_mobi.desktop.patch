@@ -1,0 +1,29 @@
+From b8e524d636da5be90dd9c1f2231d3a4b42d96de1 Mon Sep 17 00:00:00 2001
+From: Felix Geyer <debfx-kde@fobos.de>
+Date: Tue, 8 Nov 2011 18:20:45 +0100
+Subject: [PATCH] Add TryExec=okular to okularApplication_mobi.desktop.
+
+This allows distributions to put mobipocket into a single package
+that doesn't need to depend on okular.
+
+BUG: 277833
+FIXED-IN: 4.8
+---
+ okular/okularApplication_mobi.desktop |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/okular/okularApplication_mobi.desktop b/okular/okularApplication_mobi.desktop
+index 649fe55..d12df4c 100755
+--- a/okular/okularApplication_mobi.desktop
++++ b/okular/okularApplication_mobi.desktop
+@@ -120,6 +120,7 @@ GenericName[uk]=Переглядач документів
+ GenericName[x-test]=xxDocument Viewerxx
+ GenericName[zh_CN]=文档查看器
+ GenericName[zh_TW]=文件檢視器
++TryExec=okular
+ Exec=okular %U %i -caption "%c"
+ Icon=okular
+ Type=Application
+-- 
+1.7.7.1
+
