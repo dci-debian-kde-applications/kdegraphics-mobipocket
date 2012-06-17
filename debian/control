@@ -9,7 +9,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  kdelibs5-dev (>= 4:4.8),
  libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3),
  okular-dev (>= 4:4.8)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegraphics-mobipocket.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegraphics-mobipocket.git
