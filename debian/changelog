@@ -1,10 +1,10 @@
-kdegraphics-mobipocket (4:4.10.2-1) UNRELEASED; urgency=low
+kdegraphics-mobipocket (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
   * Bump build-deps.
   * Update uploaders
 
- -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 18:48:07 +0000
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 18:52:03 +0000
 
 kdegraphics-mobipocket (4:4.8.4-1) unstable; urgency=low
 
