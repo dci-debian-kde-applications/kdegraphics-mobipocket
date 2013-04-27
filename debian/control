@@ -26,7 +26,6 @@ Enhances: okular
 Description: mobipocket plugins for Strigi indexing, Okular and thumbnails
  These plugins allow Strigi Desktop Search to extract additional information
  about mobipocket files. Additionally they allow the Dolphin file manager to
- create thumbnails for this file format and Okular to display the open the
- files.
+ create thumbnails for this file format and Okular to display the files.
  .
  This package is part of the KDE graphics module.
