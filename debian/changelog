@@ -1,4 +1,4 @@
-kdegraphics-mobipocket (4:4.10.2-2) UNRELEASED; urgency=low
+kdegraphics-mobipocket (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Fix description. (Closes: #706261)
@@ -11,7 +11,7 @@ kdegraphics-mobipocket (4:4.10.2-2) UNRELEASED; urgency=low
   * Reshuffle build-deps to reduce resolver tries.
   * Bump Standards-Version to 3.9.4, no further changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Apr 2013 14:12:00 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 May 2013 23:22:46 +0200
 
 kdegraphics-mobipocket (4:4.10.2-1) experimental; urgency=low
 
