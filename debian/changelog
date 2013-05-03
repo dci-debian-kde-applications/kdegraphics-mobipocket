@@ -7,6 +7,9 @@ kdegraphics-mobipocket (4:4.10.2-2) UNRELEASED; urgency=low
   * Add a watch file.
   * Bump debhelper dependency and compat to 9.
   * Update copyright file.
+  * Add myself to the uploaders list.
+  * Reshuffle build-deps to reduce resolver tries.
+  * Bump Standards-Version to 3.9.4, no further changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Apr 2013 14:12:00 +0200
 

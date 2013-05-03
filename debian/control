@@ -3,13 +3,14 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
- Eshat Cakar <info@eshat.de>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+ Eshat Cakar <info@eshat.de>,
+ Maximiliano Curia <maxy@debian.org>
+Build-Depends: kdelibs5-dev (>= 4:4.10),
+ okular-dev (>= 4:4.10),
+ kde-sc-dev-latest (>= 4:4.10),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.10),
- libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3),
- okular-dev (>= 4:4.10)
-Standards-Version: 3.9.3
+ libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3)
+Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdegraphics-mobipocket.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdegraphics-mobipocket.git
