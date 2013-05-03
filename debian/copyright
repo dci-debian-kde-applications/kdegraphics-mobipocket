@@ -7,13 +7,14 @@ Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  files.
 
 Files: *
-Copyright: 2008, Jakub Stachowski <qbast@go2.pl>
+Copyright: 2008-2009, Jakub Stachowski <qbast@go2.pl>
            2008, Ely Levy <elylevy@cs.huji.ac.il>
            2004-2008, Geometer Plus <contact@geometerplus.com>
 License: GPL-2+
 
 Files: debian/*
 Copyright: 2011, Harald Sitter <apachelogger@ubuntu.com>
+           2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
 License: GPL-2+
