@@ -3,13 +3,16 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
- Eshat Cakar <info@eshat.de>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kdelibs5-dev (>= 4:4.11),
- okular-dev (>= 4:4.11),
- kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- libstreamanalyzer-dev (>= 0.6.3), libstreams-dev (>= 0.6.3)
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libstreamanalyzer-dev (>= 0.6.3),
+               libstreams-dev (>= 0.6.3),
+               okular-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdegraphics-mobipocket.git
@@ -18,10 +21,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdegraphics-mobipocket.git
 Package: kdegraphics-mobipocket
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdegraphics-strigi-plugins (<< 4:4.6.90),
- okular (<< 4:4.6.90)
-Breaks: kdegraphics-strigi-plugins (<< 4:4.6.90),
- okular (<< 4:4.6.90)
+Replaces: kdegraphics-strigi-plugins (<< 4:4.6.90), okular (<< 4:4.6.90)
+Breaks: kdegraphics-strigi-plugins (<< 4:4.6.90), okular (<< 4:4.6.90)
 Recommends: okular
 Enhances: okular
 Description: mobipocket plugins for Strigi indexing, Okular and thumbnails
