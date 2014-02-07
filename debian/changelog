@@ -2,6 +2,10 @@ kdegraphics-mobipocket (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
   * New upstream release.
+  * Split package in libqmobipocket1, libqmobipocket-dev and
+    kdegraphics-mobipocket.
+  * Sync package with ubuntu version.
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:14:49 +0100
 

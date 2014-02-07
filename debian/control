@@ -11,7 +11,6 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.11),
                libstreamanalyzer-dev (>= 0.6.3),
                libstreams-dev (>= 0.6.3),
-               okular-dev (>= 4:4.11),
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
@@ -25,9 +24,25 @@ Replaces: kdegraphics-strigi-plugins (<< 4:4.6.90), okular (<< 4:4.6.90)
 Breaks: kdegraphics-strigi-plugins (<< 4:4.6.90), okular (<< 4:4.6.90)
 Recommends: okular
 Enhances: okular
-Description: mobipocket plugins for Strigi indexing, Okular and thumbnails
- These plugins allow Strigi Desktop Search to extract additional information
- about mobipocket files. Additionally they allow the Dolphin file manager to
- create thumbnails for this file format and Okular to display the files.
+Description: mobipocket plugins for Strigi indexing and thumbnails
+ This package contains a plugin to read mobi files as thumbnails in KDE.
+ .
+ It also has a plugin for Strigi to read mobi files.
  .
  This package is part of the KDE graphics module.
+
+Package: libqmobipocket1
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Section: libs
+Description: library for reading Mobipocket documents
+ Qt library for reading Mobipocket documents.
+
+Package: libqmobipocket-dev
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, libqmobipocket1 (= ${binary:Version})
+Section: libdevel
+Description: library for reading Mobipocket documents
+ Qt library for reading Mobipocket documents.
+ .
+ This package contains the files necessary for development.
