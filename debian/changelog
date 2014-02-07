@@ -1,4 +1,4 @@
-kdegraphics-mobipocket (4:4.12.2-1) UNRELEASED; urgency=medium
+kdegraphics-mobipocket (4:4.12.2-1~) UNRELEASED; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
   * New upstream release.
