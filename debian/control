@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.11),
+               kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.11),
                libstreamanalyzer-dev (>= 0.6.3),
                libstreams-dev (>= 0.6.3),
