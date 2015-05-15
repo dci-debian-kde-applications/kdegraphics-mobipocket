@@ -40,7 +40,9 @@ Description: library for reading Mobipocket documents
 
 Package: libqmobipocket-dev
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, libqmobipocket1 (= ${binary:Version})
+Depends: libqmobipocket1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Section: libdevel
 Description: library for reading Mobipocket documents
  Qt library for reading Mobipocket documents.
