@@ -33,11 +33,11 @@ kdegraphics-mobipocket (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kdegraphics-mobipocket (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 17:47:02 +0000
 
@@ -183,7 +183,7 @@ kdegraphics-mobipocket (4:4.11.80-0ubuntu1) trusty; urgency=low
   * Tidy up description of kdegraphics-mobipocket
 
   [ Philip Muškovac ]
-  * Drop obsolete build-depend on okular-dev 
+  * Drop obsolete build-depend on okular-dev
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:35:12 +0100
 
@@ -420,7 +420,7 @@ kdegraphics-mobipocket (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kdegraphics-mobipocket (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:03:09 +0100
 
@@ -508,7 +508,7 @@ kdegraphics-mobipocket (4:4.7.1-0ubuntu1) oneiric; urgency=low
 kdegraphics-mobipocket (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
   [ Philip Muškovac ]
-  * New upstream release 
+  * New upstream release
 
   [ Felix Geyer ]
   * Set KUBUNTU_DESKTOP_POT because package name != tarball name.
