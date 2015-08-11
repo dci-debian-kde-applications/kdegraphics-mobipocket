@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.80 amd64
+# SymbolsHelper-Confirmed: 4:15.04.2 amd64
 libqmobipocket.so.1 libqmobipocket1 #MINVER#
  _ZN10Mobipocket11QFileStream4readEPci@Base 4:4.11.80
  _ZN10Mobipocket11QFileStream4seekEi@Base 4:4.11.80
@@ -25,4 +25,4 @@ libqmobipocket.so.1 libqmobipocket1 #MINVER#
  _ZTSN10Mobipocket11QFileStreamE@Base 4:4.11.80
  _ZTSN10Mobipocket6StreamE@Base 4:4.11.80
  _ZTVN10Mobipocket11QFileStreamE@Base 4:4.11.80
- _ZTVN10Mobipocket6StreamE@Base 4:4.11.80
+ (optional)_ZTVN10Mobipocket6StreamE@Base 4:4.11.80
