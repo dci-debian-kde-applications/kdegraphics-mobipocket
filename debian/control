@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
@@ -40,7 +40,9 @@ Description: library for reading Mobipocket documents
 
 Package: libqmobipocket-dev
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, libqmobipocket1 (= ${binary:Version})
+Depends: libqmobipocket1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Section: libdevel
 Description: library for reading Mobipocket documents
  Qt library for reading Mobipocket documents.
