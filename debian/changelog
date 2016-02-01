@@ -1,6 +1,6 @@
 kdegraphics-mobipocket (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * Non-maintainer upload.
+  * New upstream release.
   * Debian merge: Remaining changes,
     Kept unstable line in watch file. 
 
