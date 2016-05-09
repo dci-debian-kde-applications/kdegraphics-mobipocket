@@ -1,11 +1,19 @@
-kdegraphics-mobipocket (4:15.12.3-1~1.gbpc6a7e7) UNRELEASED; urgency=medium
+kdegraphics-mobipocket (4:15.12.3-1~2.gbp4f9dca) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @4f9dcae0af464b3724c6f8ccc53f63fb0d130c0e **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @c6a7e78952b02ebf5022a4d2537b78e5b1f944a2 **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 16:22:44 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:26:27 +0200
 
 kdegraphics-mobipocket (4:15.12.0-1) experimental; urgency=medium
 
