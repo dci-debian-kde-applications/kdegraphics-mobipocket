@@ -1,5 +1,7 @@
-# SymbolsHelper-Confirmed: 4:4.11.80 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libqmobipocket.so.1 libqmobipocket1 #MINVER#
+ (arch=hppa sparc64 x32)_ZN10Mobipocket10PDBPrivate4initEv@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket10readBELongERK10QByteArrayi@Base 4:15.12.0
  _ZN10Mobipocket11QFileStream4readEPci@Base 4:4.11.80
  _ZN10Mobipocket11QFileStream4seekEi@Base 4:4.11.80
  _ZN10Mobipocket11QFileStreamC1ERK7QString@Base 4:4.11.80
@@ -7,12 +9,51 @@ libqmobipocket.so.1 libqmobipocket1 #MINVER#
  _ZN10Mobipocket11QFileStreamD0Ev@Base 4:4.11.80
  _ZN10Mobipocket11QFileStreamD1Ev@Base 4:4.11.80
  _ZN10Mobipocket11QFileStreamD2Ev@Base 4:4.11.80
+ (arch=hppa sparc64 x32)_ZN10Mobipocket12Decompressor6createEhRKNS_3PDBE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15DocumentPrivate13parseHtmlHeadERK7QString@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15DocumentPrivate14findFirstImageEv@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15DocumentPrivate14readEXTHRecordERK10QByteArrayRj@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15DocumentPrivate18getImageFromRecordEi@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15DocumentPrivate4initEv@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15DocumentPrivate9parseEXTHERK10QByteArray@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15RLEDecompressor10decompressERK10QByteArray@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15RLEDecompressorD0Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15RLEDecompressorD1Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket15RLEDecompressorD2Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket16NOOPDecompressor10decompressERK10QByteArray@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket16NOOPDecompressorD0Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket16NOOPDecompressorD1Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket16NOOPDecompressorD2Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressor10decompressERK10QByteArray@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressor6unpackENS_9BitReaderEi@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressorC1ERKNS_3PDBE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressorC2ERKNS_3PDBE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressorD0Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressorD1Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket19HuffdicDecompressorD2Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket3PDBC1EPNS_6StreamE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket3PDBC2EPNS_6StreamE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket3PDBD1Ev@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZN10Mobipocket3PDBD2Ev@Base 4:15.12.0
  _ZN10Mobipocket6Stream4readEi@Base 4:4.11.80
  _ZN10Mobipocket6Stream7readAllEv@Base 4:4.11.80
  _ZN10Mobipocket8DocumentC1EPNS_6StreamE@Base 4:4.11.80
  _ZN10Mobipocket8DocumentC2EPNS_6StreamE@Base 4:4.11.80
  _ZN10Mobipocket8DocumentD1Ev@Base 4:4.11.80
  _ZN10Mobipocket8DocumentD2Ev@Base 4:4.11.80
+ (optional=templinst|arch=hppa sparc64 x32)_ZN4QMapIN10Mobipocket8Document7MetaKeyE7QStringE13detach_helperEv@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64 x32)_ZN5QListI10QByteArrayE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64 x32)_ZN5QListI10QByteArrayE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64)_ZN5QListI10QByteArrayED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64)_ZN5QListI10QByteArrayED2Ev@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64)_ZN5QListI7QStringE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64)_ZN5QListI7QStringED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64)_ZN5QListI7QStringED2Ev@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64 x32)_ZN5QListIjE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst|arch=hppa sparc64 x32)_ZN5QListIjE18detach_helper_growEii@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZNK10Mobipocket3PDB11recordCountEv@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZNK10Mobipocket3PDB7isValidEv@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZNK10Mobipocket3PDB9getRecordEi@Base 4:15.12.0
  _ZNK10Mobipocket8Document10imageCountEv@Base 4:4.11.80
  _ZNK10Mobipocket8Document4textEi@Base 4:4.11.80
  _ZNK10Mobipocket8Document6hasDRMEv@Base 4:4.11.80
@@ -21,8 +62,18 @@ libqmobipocket.so.1 libqmobipocket1 #MINVER#
  _ZNK10Mobipocket8Document8metadataEv@Base 4:4.11.80
  _ZNK10Mobipocket8Document9thumbnailEv@Base 4:4.11.80
  _ZTIN10Mobipocket11QFileStreamE@Base 4:4.11.80
+ (arch=hppa sparc64 x32)_ZTIN10Mobipocket12DecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTIN10Mobipocket15RLEDecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTIN10Mobipocket16NOOPDecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTIN10Mobipocket19HuffdicDecompressorE@Base 4:15.12.0
  _ZTIN10Mobipocket6StreamE@Base 4:4.11.80
  _ZTSN10Mobipocket11QFileStreamE@Base 4:4.11.80
+ (arch=hppa sparc64 x32)_ZTSN10Mobipocket12DecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTSN10Mobipocket15RLEDecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTSN10Mobipocket16NOOPDecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTSN10Mobipocket19HuffdicDecompressorE@Base 4:15.12.0
  _ZTSN10Mobipocket6StreamE@Base 4:4.11.80
  _ZTVN10Mobipocket11QFileStreamE@Base 4:4.11.80
- (optional=gccinternal)_ZTVN10Mobipocket6StreamE@Base 4:4.11.80
+ (arch=hppa sparc64 x32)_ZTVN10Mobipocket15RLEDecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTVN10Mobipocket16NOOPDecompressorE@Base 4:15.12.0
+ (arch=hppa sparc64 x32)_ZTVN10Mobipocket19HuffdicDecompressorE@Base 4:15.12.0
