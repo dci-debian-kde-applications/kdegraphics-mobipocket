@@ -3,6 +3,12 @@ kdegraphics-mobipocket (4:16.04.3-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * New upstream release.
   * Update symbols files.
+  * Remove support for Strigi, which is going to be removed soon:
+    - drop the libstreamanalyzer-dev and libstreams-dev build dependencies
+    - do not install the strigi analyzer anymore
+    - remove mention of Strigi in the description of kdegraphics-mobipocket
+    - remove kdegraphics-strigi-plugins breaks/replaces in
+      kdegraphics-mobipocket
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Aug 2016 08:07:43 +0200
 

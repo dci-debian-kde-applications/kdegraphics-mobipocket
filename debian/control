@@ -9,8 +9,6 @@ Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
-               libstreamanalyzer-dev (>= 0.6.3),
-               libstreams-dev (>= 0.6.3),
                pkg-kde-tools (>= 0.14)
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
@@ -20,14 +18,12 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdegraphics-mobipoc
 Package: kdegraphics-mobipocket
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdegraphics-strigi-plugins (<< 4:4.6.90), okular (<< 4:4.6.90)
-Breaks: kdegraphics-strigi-plugins (<< 4:4.6.90), okular (<< 4:4.6.90)
+Replaces: okular (<< 4:4.6.90)
+Breaks: okular (<< 4:4.6.90)
 Recommends: okular
 Enhances: okular
-Description: mobipocket plugins for Strigi indexing and thumbnails
+Description: mobipocket thumbnail plugin
  This package contains a plugin to read mobi files as thumbnails in KDE.
- .
- It also has a plugin for Strigi to read mobi files.
  .
  This package is part of the KDE graphics module.
 
