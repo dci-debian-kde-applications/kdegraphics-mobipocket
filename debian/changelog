@@ -9,6 +9,7 @@ kdegraphics-mobipocket (4:16.04.3-0r1) UNRELEASED; urgency=medium
     - remove mention of Strigi in the description of kdegraphics-mobipocket
     - remove kdegraphics-strigi-plugins breaks/replaces in
       kdegraphics-mobipocket
+  * Update lintian overrides.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Aug 2016 08:07:43 +0200
 
