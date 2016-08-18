@@ -11,6 +11,9 @@ kdegraphics-mobipocket (4:16.04.3-0r1) UNRELEASED; urgency=medium
       kdegraphics-mobipocket
   * Update lintian overrides.
   * Remove unused libqmobipocket1.acc file.
+  * Remove all the references to okular in the relationships of
+    kdegraphics-mobipocket, since it does not contain an okular plugin
+    anymore.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Aug 2016 08:07:43 +0200
 
