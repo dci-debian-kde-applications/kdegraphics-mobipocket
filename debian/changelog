@@ -1,4 +1,6 @@
-kdegraphics-mobipocket (4:16.04.3-0r1) UNRELEASED; urgency=medium
+kdegraphics-mobipocket (4:16.04.3-0r2~1.gbp91ae90) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @91ae90abbe76ce29ddf42095e8711f760ed8656e **
 
   [ Pino Toscano ]
   * New upstream release.
@@ -16,8 +18,12 @@ kdegraphics-mobipocket (4:16.04.3-0r1) UNRELEASED; urgency=medium
     anymore.
   * Small touches to the descriptions.
   * Remove the unused ${shlibs:Depends} from libqmobipocket-dev.
+  * remove unused libqmobipocket1.acc
+  * remove okular refs in kdegraphics-mobipocket relationships
+  * small touches to the descriptions
+  * remove unused ${shlibs:Depends} from libqmobipocket-dev
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Aug 2016 08:07:43 +0200
+ -- Pino Toscano <pino@debian.org>  Thu, 18 Aug 2016 07:51:18 +0200
 
 kdegraphics-mobipocket (4:15.12.3-1) unstable; urgency=medium
 
