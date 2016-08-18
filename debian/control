@@ -28,7 +28,9 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Section: libs
 Description: library for reading Mobipocket documents
- Qt library for reading Mobipocket documents.
+ QMobipocket is a Qt library for reading Mobipocket documents.
+ .
+ This package is part of the KDE graphics module.
 
 Package: libqmobipocket-dev
 Architecture: any
@@ -36,7 +38,9 @@ Depends: libqmobipocket1 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Section: libdevel
-Description: library for reading Mobipocket documents
- Qt library for reading Mobipocket documents.
+Description: development files for the QMobipocket library
+ QMobipocket is a Qt library for reading Mobipocket documents.
  .
  This package contains the files necessary for development.
+ .
+ This package is part of the KDE graphics module.
