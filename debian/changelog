@@ -15,6 +15,7 @@ kdegraphics-mobipocket (4:16.04.3-0r1) UNRELEASED; urgency=medium
     kdegraphics-mobipocket, since it does not contain an okular plugin
     anymore.
   * Small touches to the descriptions.
+  * Remove the unused ${shlibs:Depends} from libqmobipocket-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Aug 2016 08:07:43 +0200
 

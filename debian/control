@@ -36,7 +36,6 @@ Package: libqmobipocket-dev
 Architecture: any
 Depends: libqmobipocket1 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
 Section: libdevel
 Description: development files for the QMobipocket library
  QMobipocket is a Qt library for reading Mobipocket documents.
