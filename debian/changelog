@@ -1,6 +1,6 @@
-kdegraphics-mobipocket (4:16.08.0-0r1) UNRELEASED; urgency=medium
+kdegraphics-mobipocket (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Update symbols files.
   * Remove support for Strigi, which is going to be removed soon:
@@ -19,7 +19,7 @@ kdegraphics-mobipocket (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Add the pkg-config build dependency.
   * Tighten the libqmobipocket1 dependency in kdegraphics-mobipocket.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Aug 2016 08:07:43 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 23 Aug 2016 18:25:59 +0200
 
 kdegraphics-mobipocket (4:15.12.3-1) unstable; urgency=medium
 
