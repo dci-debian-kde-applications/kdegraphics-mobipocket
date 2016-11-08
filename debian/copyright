@@ -1,40 +1,20 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kdegraphics-mobipocket
 Upstream-Contact: kde-graphics-devel@kde.org
-Source: ftp.kde.org
-Comment: This package was developed for Ubuntu by the Kubuntu Developers and
- modified to be included in Debian. See below the copyright holders for debian/*
- files.
+Source: https://quickgit.kde.org/?p=kdegraphics-mobipocket.git
 
 Files: *
-Copyright: 2008-2009, Jakub Stachowski <qbast@go2.pl>
-           2008, Ely Levy <elylevy@cs.huji.ac.il>
+       lib/decompressor.cpp
+       debian/*
+Copyright: 2008, Jakub Stachowski <qbast@go2.pl>
            2004-2008, Geometer Plus <contact@geometerplus.com>
-License: GPL-2+
-
-Files: debian/*
-Copyright: 2011, Harald Sitter <apachelogger@ubuntu.com>
+           2011, Harald Sitter <apachelogger@ubuntu.com>
            2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
-
-License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at
+ your option) any later version.
  .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.

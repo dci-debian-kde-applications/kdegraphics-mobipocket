@@ -1,2 +1,2 @@
-usr/lib/kde4/mobithumbnail.so
-usr/share/kde4/services/mobithumbnail.desktop
+usr/lib/*/qt5/plugins/mobithumbnail.so
+usr/share/kservices5

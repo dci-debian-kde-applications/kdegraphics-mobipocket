@@ -1,3 +1,9 @@
+kdegraphics-mobipocket (4:16.08.90~git11082016-1) xenial; urgency=medium
+
+  * KF5 port
+  
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 08 Nov 2016 15:26:02 -0700
+
 kdegraphics-mobipocket (4:16.08.0-1) unstable; urgency=medium
 
   * Team upload.

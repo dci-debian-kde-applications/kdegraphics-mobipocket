@@ -7,25 +7,27 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
+               extra-cmake-modules,
+               kio-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.14)
-Standards-Version: 3.9.8
+               pkg-kde-tools,
+               qtbase5-dev
+Standards-Version: 3.9.7
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdegraphics-mobipocket.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdegraphics-mobipocket.git
 
 Package: kdegraphics-mobipocket
 Architecture: any
-Depends: libqmobipocket1 (= ${binary:Version}),
-         ${misc:Depends}, ${shlibs:Depends}
+Depends: libqmobipocket2 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: mobipocket thumbnail plugin
  This package contains a plugin to read mobi files as thumbnails in KDE.
  .
  This package is part of the KDE graphics module.
 
-Package: libqmobipocket1
+Package: libqmobipocket2
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Section: libs
@@ -36,8 +38,7 @@ Description: library for reading Mobipocket documents
 
 Package: libqmobipocket-dev
 Architecture: any
-Depends: libqmobipocket1 (= ${binary:Version}),
-         ${misc:Depends},
+Depends: libqmobipocket2 (= ${binary:Version}), ${misc:Depends}
 Section: libdevel
 Description: development files for the QMobipocket library
  QMobipocket is a Qt library for reading Mobipocket documents.
