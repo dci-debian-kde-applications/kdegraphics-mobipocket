@@ -21,6 +21,12 @@ kdegraphics-mobipocket (4:16.08.0-1) unstable; urgency=medium
 
  -- Pino Toscano <pino@debian.org>  Tue, 23 Aug 2016 18:25:59 +0200
 
+kdegraphics-mobipocket (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:14:03 +0200
+
 kdegraphics-mobipocket (4:15.12.3-1) unstable; urgency=medium
 
   [ Automatic packaging ]
