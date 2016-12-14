@@ -8,11 +8,11 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                extra-cmake-modules,
-               kio-dev,
+               libkf5kio-dev,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdegraphics-mobipocket.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdegraphics-mobipocket.git
@@ -31,6 +31,7 @@ Package: libqmobipocket2
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Section: libs
+Multi-Arch: same
 Description: library for reading Mobipocket documents
  QMobipocket is a Qt library for reading Mobipocket documents.
  .
