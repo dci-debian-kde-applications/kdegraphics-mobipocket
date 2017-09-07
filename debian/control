@@ -4,14 +4,14 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                extra-cmake-modules,
                libkf5kio-dev,
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev
+               qtbase5-dev,
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdegraphics-mobipocket.git
@@ -21,9 +21,23 @@ Package: kdegraphics-mobipocket
 Architecture: any
 Depends: libqmobipocket2 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: mobipocket thumbnail plugin
  This package contains a plugin to read mobi files as thumbnails in KDE.
+ .
+ This package is part of the KDE graphics module.
+
+Package: libqmobipocket-dev
+Architecture: any
+Depends: libkf5i18n-dev,
+         libqmobipocket2 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends},
+Section: libdevel
+Description: development files for the QMobipocket library
+ QMobipocket is a Qt library for reading Mobipocket documents.
+ .
+ This package contains the files necessary for development.
  .
  This package is part of the KDE graphics module.
 
@@ -34,19 +48,5 @@ Section: libs
 Multi-Arch: same
 Description: library for reading Mobipocket documents
  QMobipocket is a Qt library for reading Mobipocket documents.
- .
- This package is part of the KDE graphics module.
-
-Package: libqmobipocket-dev
-Architecture: any
-Depends: libkf5i18n-dev,
-         libqmobipocket2 (= ${binary:Version}),
-         qtbase5-dev,
-         ${misc:Depends}
-Section: libdevel
-Description: development files for the QMobipocket library
- QMobipocket is a Qt library for reading Mobipocket documents.
- .
- This package contains the files necessary for development.
  .
  This package is part of the KDE graphics module.
