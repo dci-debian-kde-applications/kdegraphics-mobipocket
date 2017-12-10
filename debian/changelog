@@ -1,13 +1,13 @@
-kdegraphics-mobipocket (4:17.08.3-0r1) UNRELEASED; urgency=medium
+kdegraphics-mobipocket (4:17.08.3-1) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
   * Bump versions in symbol file to 4:16.12.0 (basically round to the first
     stable release).
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Dec 2017 10:58:02 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 10 Dec 2017 11:09:58 +0100
 
 kdegraphics-mobipocket (4:17.08.1-1) experimental; urgency=medium
 
